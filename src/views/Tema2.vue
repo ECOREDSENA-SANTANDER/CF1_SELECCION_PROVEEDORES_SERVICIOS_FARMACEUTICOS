@@ -7,6 +7,15 @@
         span 2
       h1 Tema 2
 
+
+
+
+
+
+    separador
+    #t_2_1.titulo-segundo.mb-5
+      h2
+
 </template>
 
 <script>
