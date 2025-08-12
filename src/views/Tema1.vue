@@ -19,7 +19,7 @@
 
       .bloque-texto-a.color-acento-contenido.p-4.p-md-4.p-lg-5.mb-5(data-aos="fade-right") 
         .row.m-0.align-items-center.justify-content-center
-          .col-lg-9.com.mb-0.mb-lg-0
+          .col-lg-9.mb-0.mb-lg-0
             .bloque-texto-a__texto.p-lg-5.p-md-4.p-4.mb-lg-0.mb-4.my-3.my-lg-0
               p.mb-0 Dentro de este contexto, una de las competencias clave para quienes participan en procesos de contratación, compras y abastecimiento en servicios farmacéuticos es el conocimiento detallado del portafolio de productos disponibles. Esta comprensión permite establecer criterios adecuados para la evaluación y selección de proveedores, optimizando los procesos de adquisición y asegurando la calidad de los productos que llegan al usuario final. El sector maneja un amplio y diverso portafolio que abarca desde medicamentos esenciales hasta suplementos nutricionales y dispositivos médicos, cada uno sujeto a regulaciones específicas, características técnicas y condiciones de manejo.
           .col-lg-3.col-md-6.col-9.mb-0
@@ -113,15 +113,15 @@
         p.mb-0 Esta clasificación determina las condiciones para su registro, comercialización y control sanitario. Los proveedores deben contar con certificaciones técnicas, presentar fichas técnicas y estudios de funcionalidad, y cumplir con la normativa vigente que garantiza la seguridad, eficacia y calidad del producto.
 
       AcordionA.activo(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-0(data-aos="fade-right")
-        .row.justify-content-center.align-items-center.p-2(titulo="Productos homeopáticos")
-          .col-lg-6
+        .row.justify-content-center.align-items.p-2(titulo="Productos homeopáticos")
+          .col-lg-6.mb-lg-0.mb-4
             p.mb-0 Aunque no hacen parte del modelo biomédico convencional, los productos homeopáticos tienen una presencia reconocida en algunos servicios farmacéuticos. Son elaborados a partir de sustancias de origen vegetal, mineral o animal, y se fundamentan en los principios propios de la homeopatía. En Colombia, su regulación está a cargo del INVIMA, el cual exige registro sanitario, validación de los procesos de preparación y cumplimiento de condiciones específicas de conservación. La selección de proveedores en esta categoría debe contemplar su experiencia, especialización y alineación con criterios de calidad terapéutica y trazabilidad del producto.
-          .col-lg-6
+          .col-lg-6.col-md-9.col-10
             img.mb-0(alt="" src="@/assets/curso/tema1/7.png")
-        .row.justify-content-center.align-items-center.p-2(titulo="Suplementos nutricionales")
-          .col-lg-6
+        .row.justify-content-center.align-items.p-2(titulo="Suplementos nutricionales")
+          .col-lg-6.mb-lg-0.mb-4
             p.mb-0 Incluyen productos como vitaminas, minerales, aminoácidos, prebióticos, probióticos y otras sustancias destinadas a complementar la alimentación. Aunque no son considerados medicamentos, tienen implicaciones directas sobre la salud, por lo que están sujetos a control sanitario. Su evaluación debe considerar la composición nutricional, respaldo científico, etiquetado adecuado y cumplimiento de normas de inocuidad alimentaria. Un proveedor confiable debe garantizar productos certificados, disponer de fichas técnicas y cumplir con los requisitos del INVIMA y otras autoridades sanitarias competentes.
-          .col-lg-6
+          .col-lg-6.col-md-9.col-10
             img.mb-0(alt="" src="@/assets/curso/tema1/8.png")
 
       separador
@@ -336,7 +336,7 @@
 
       .bloque-texto-a.color-secundario.c1.p-4.p-md-4.p-lg-5.mb-5(data-aos="fade-right") 
         .row.m-0.align-items-center.justify-content-center
-          .col-lg-9.com.mb-0.mb-lg-0
+          .col-lg-9.mb-0.mb-lg-0
             .bloque-texto-a__texto.p-lg-4.p-md-4.p-4.mb-lg-0.mb-4.my-3.my-lg-0
               p.mb-4 Esta estructura operativa influye directamente en la selección de proveedores, ya que cada modelo impone condiciones logísticas, técnicas y regulatorias particulares, que deben ser consideradas durante la contratación. Para los aprendices del SENA, comprender estos modelos es esencial para aplicar criterios de evaluación pertinentes y proponer estrategias efectivas en la gestión farmacéutica.
               p.mb-0 Uno de los modelos más comunes es el de venta directa al público, característico de droguerías y farmacias comerciales. En este esquema, los productos se adquieren a distribuidores o mayoristas y se venden directamente al consumidor final, sin mediación institucional. Este modelo exige proveedores con alta capacidad de suministro, tiempos de entrega eficientes, precios competitivos y cumplimiento de estándares de calidad. Además, requiere vigilancia constante sobre la normatividad relacionada con la publicidad de medicamentos, la venta con o sin fórmula médica y la dispensación responsable al usuario.
@@ -375,21 +375,193 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-5
           .bg4.p-4.mb-lg-0.mb-5
-            p.mb-5.my-lg-2.te1.my-md-0.my-0 También son obligatorias las Buenas Prácticas de Almacenamiento (BPA), que regulan las condiciones físicas, técnicas y organizativas del almacenamiento. El proveedor debe demostrar que posee instalaciones habilitadas, con control ambiental (temperatura, humedad, ventilación), procedimientos documentados, registros de ingresos y egresos, y planes de contingencia ante emergencias.
+            p.mb-lg-5.mb-0.my-lg-2.te1.my-md-0.my-0 También son obligatorias las Buenas Prácticas de Almacenamiento (BPA), que regulan las condiciones físicas, técnicas y organizativas del almacenamiento. El proveedor debe demostrar que posee instalaciones habilitadas, con control ambiental (temperatura, humedad, ventilación), procedimientos documentados, registros de ingresos y egresos, y planes de contingencia ante emergencias.
         .col-lg-3.d-none.d-lg-block
-          img(src='@/assets/curso/tema1/20.svg', alt='')
+          img.imt1(src='@/assets/curso/tema1/20.svg', alt='')
         .col-lg-4
           .br.mb-2.d-none.d-lg-block
           p.mb-0 El control de medicamentos de uso institucional es otra exigencia clave, especialmente para productos regulados por el Estado o con alto riesgo sanitario. Estos medicamentos requieren seguimiento específico en su prescripción, distribución y administración. El proveedor debe estar autorizado para su comercialización, cumplir con normas de transporte seguro y respetar lo dispuesto en normativas como la Resolución 1478 de 2006 y las circulares técnicas del INVIMA.
 
-      .tit.p-2.d-flex.mb-5(data-aos="fade-left")
-        h4.mb-0.ps-3.pe-3 Responsabilidades del dispensador frente al control de medicamentos de uso institucional
+      .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
+        .col-auto.ps-3.pe-0
+          .titu
+        .col.ps-0
+          .sub.p-2.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
+            h4.mb-0 Responsabilidades del dispensador frente al control de medicamentos de uso institucional
 
       p.mb-4 El dispensador tiene funciones clave para asegurar el cumplimiento normativo, entre ellas:
 
+      .tarjeta--container.row.mb-5
+        .col-lg-4.col-md-6.col-12.tarjeta.color-acento-contenido.p-lg-5.p-4.mb-lg-0.mb-4
+          .row.justify-content-center.mb-4
+            .col-6
+              figure
+                img.im1(src='@/assets/curso/tema1/21.svg', alt='Texto que describa la imagen')          
+          p.text-center.text-white.tb Verificar que el medicamento cuente con autorización vigente.
 
+        .col-lg-4.col-md-6.col-12.tarjeta.color-acento-contenido.p-lg-5.p-4.mb-lg-0.mb-4
+          .row.justify-content-center.mb-4
+            .col-6
+              figure
+                img.im2(src='@/assets/curso/tema1/22.svg', alt='Texto que describa la imagen')          
+          p.text-center.text-white.tb Confirmar que esté incluido en los listados institucionales (POS o No POS) y que exista prescripción médica válida.
 
+        .col-lg-4.col-md-6.col-12.tarjeta.color-acento-contenido.ce1.p-lg-5.p-4.mb-lg-0
+          .row.justify-content-center.mb-4
+            .col-6
+              figure
+                img.im3(src='@/assets/curso/tema1/23.svg', alt='Texto que describa la imagen')          
+          p.text-center.text-white.tb Asegurar que en el caso de medicamentos controlados o especiales, se cumplan los protocolos definidos por la institución y la legislación nacional (como la Resolución 1478 de 2006).
 
+      .titulo.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+        img(src='@/assets/curso/tema1/sub.svg', alt='Imagen decorativa')
+        h3.mb-0.mx-4 Buenas prácticas del dispensador en el control de medicamentos de uso institucional
+
+      .row.justify-content-center.align-items-start.mb-5
+        .col-lg-8
+          AcordionA.activor(tipo="b" clase-tarjeta="tarjeta tarjeta--griss")
+            .row.align-items-center(titulo="Control del ingreso al inventario")
+              .col-lg-12
+                p.mb-0 Al recibir medicamentos de uso institucional, el dispensador debe verificar que cuenten con el registro sanitario del INVIMA, número de lote, fecha de vencimiento y condiciones físicas adecuadas. Además, debe asegurarse de que los productos sean registrados correctamente en el sistema de inventario del establecimiento.
+            .row.align-items-center(titulo="Aplicación de buenas prácticas de almacenamiento")
+              .col-lg-12
+                p.mb-0 Es fundamental conservar los medicamentos en condiciones óptimas, de acuerdo con las especificaciones del fabricante, incluyendo temperatura, humedad, exposición a la luz y cadena de frío, si aplica. Esta medida es especialmente crítica en medicamentos de alto costo o con requerimientos especiales de conservación.
+            .row.align-items-center(titulo="Registro de la dispensación")
+              .col-lg-12
+                p.mb-0 Cada entrega de medicamentos a pacientes institucionales debe ser documentada con información como el nombre del paciente, número de historia clínica, dosis administrada, fecha de entrega y firma del personal responsable. Estos registros garantizan la trazabilidad del medicamento y permiten auditorías posteriores.
+            .row.align-items-center(titulo="Reporte de eventos adversos o desviaciones")
+              .col-lg-12
+                p.mb-0 En caso de identificar un error de medicación, una reacción adversa o cualquier irregularidad en el medicamento (como deterioro del empaque o cambios en su apariencia), el dispensador debe reportarlo de inmediato al comité de farmacovigilancia institucional y seguir los protocolos establecidos.
+        .col-lg-4.d-none.d-lg-block
+          img(src='@/assets/curso/tema1/24.png', alt='Texto que describa la imagen')          
+
+      AcordionA.activo(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-5(data-aos="fade-right")
+        .row.justify-content-center.align-items.p-2(titulo="Custodia de medicamentos de control especial")
+          .col-lg-6.mb-lg-0.mb-4
+            p.mb-0 Para el manejo de opioides, psicotrópicos u otros medicamentos regulados, se debe llevar un libro de control oficial (manual o electrónico), en el que se consignen entradas y salidas firmadas, junto con inventarios físicos periódicos. El acceso a estos medicamentos debe ser restringido y supervisado.
+          .col-lg-6.col-md-9.col-10
+            img.mb-0(alt="" src="@/assets/curso/tema1/25.png")
+        .row.justify-content-center.align-items.p-2(titulo="Gestión de devoluciones seguras")
+          .col-lg-6.mb-lg-0.mb-4
+            p.mb-0 Cuando los medicamentos no son utilizados, el dispensador debe aplicar los procedimientos institucionales de devolución o destrucción, garantizando que no se incurra en desperdicio ni en un uso inapropiado del producto.
+          .col-lg-6.col-md-9.col-10
+            img.mb-0(alt="" src="@/assets/curso/tema1/26.png")
+        .row.justify-content-center.align-items.p-2(titulo="Participación en auditorías y procesos de mejora")
+          .col-lg-6.mb-lg-0.mb-4
+            p.mb-0 El dispensador debe colaborar activamente con auditorías internas, con los entes de control (como la Superintendencia Nacional de Salud), y participar en los procesos de mejora continua, enfocados especialmente en garantizar una dispensación segura, eficiente y oportuna.
+          .col-lg-6.col-md-9.col-10
+            img.mb-0(alt="" src="@/assets/curso/tema1/27.png")
+
+      .bloque-texto-g.color-secundario.bt1.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-left")
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require('@/assets/curso/tema1/28.png')})`}"
+        )
+        .bloque-texto-g__texto.p-lg-5.p-4.p-md-4
+          .ti.p-2.d-flex.mb-4(data-aos="fade-left")
+            h4.mb-0.ps-3.pe-3 Trazabilidad y cumplimiento fiscal en la gestión de proveedores
+          p.mb-0 La trazabilidad de lotes y fechas de vencimiento es un pilar fundamental en la gestión farmacéutica. Cada producto debe estar debidamente identificado con su número de lote y fecha de expiración, además de contar con registros que permitan rastrear su recorrido desde el fabricante hasta el usuario final. Los proveedores, por su parte, deben garantizar documentación clara y actualizada, contar con sistemas que registren entradas y salidas, y tener mecanismos eficientes para el retiro de productos en caso de alertas sanitarias o devoluciones.
+
+      .cajon.color-secundario.p-4.p-md-4.p-lg-5.mb-5
+        p.mb-0 En lo que respecta al cumplimiento fiscal, los proveedores deben estar formalmente constituidos, registrados ante la DIAN y habilitados para la facturación electrónica, conforme a lo estipulado por la legislación tributaria vigente. Asimismo, deben cumplir con los requerimientos establecidos por los entes de inspección, vigilancia y control, como el INVIMA, encargado de la regulación sanitaria, y la Superintendencia Nacional de Salud, que supervisa la calidad y legalidad en la prestación de servicios de salud, incluyendo los servicios tercerizados de dispensación y logística.
+
+      .titulo.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+        img(src='@/assets/curso/tema1/sub.svg', alt='Imagen decorativa')
+        h3.mb-0.mx-4 Verificación de condiciones de almacenamiento y conservación de productos farmacéuticos
+
+      .bloque-texto-a.color-secundario.p-4.p-md-4.p-lg-5.mb-5(data-aos="fade-right") 
+        .row.m-0.align-items-center.justify-content-center
+          .col-lg-9.mb-0.mb-lg-0
+            .bloque-texto-a__texto.p-4.mb-lg-0.mb-4.my-3.my-lg-0
+              p.mb-4 La verificación de las condiciones de almacenamiento y conservación de productos farmacéuticos es esencial para asegurar que los medicamentos y dispositivos médicos mantengan su calidad, eficacia y seguridad durante su permanencia en bodega o durante el transporte.
+              p.mb-0 Este proceso se basa en el cumplimiento de las Buenas Prácticas de Almacenamiento (BPA), definidas por el INVIMA y el Ministerio de Salud y Protección Social. Los establecimientos farmacéuticos y sus proveedores deben contar con infraestructura adecuada, que incluya áreas específicas para recepción, almacenamiento, cuarentena, productos próximos a vencer y devoluciones. Estas zonas deben cumplir con requisitos higiénicos y ambientales controlados, como temperatura, humedad, ventilación e iluminación, además de contar con sistemas de monitoreo y alarmas en caso de desviaciones.
+          .col-lg-3.col-md-6.col-9.mb-0
+            img(src='@/assets/curso/tema1/29.png', alt='')
+  
+      .bloque-texto-g.color-primario.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-left")
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require('@/assets/curso/tema1/30.png')})`}"
+        )
+        .bloque-texto-g__texto.p-lg-5.p-4.p-md-4
+          p.mb-0 El personal encargado debe verificar que los productos estén almacenados en estanterías organizadas, separadas por grupo terapéutico o nivel de riesgo, e identificar claramente los lotes y fechas de vencimiento. Debe aplicarse el método PEPS (primero en entrar, primero en salir) para garantizar la rotación adecuada y evitar vencimientos.
+          br
+          br
+          p.mb-0 En el caso de productos termolábiles, como vacunas o insulinas, se debe garantizar el mantenimiento de la cadena de frío (usualmente entre 2 °C y 8 °C), utilizando equipos calibrados, respaldo eléctrico y controles permanentes.
+      
+      .cajon.color-secundario.p-4.p-md-4.p-lg-5.mb-5
+        p.mb-0 Para los aprendices del SENA, dominar esta competencia implica saber evaluar si un proveedor cumple con los estándares de conservación exigidos por la normatividad. Esto incluye la aplicación de listas de verificación, auditorías documentales y visitas técnicas, que forman parte del proceso de selección y evaluación de proveedores farmacéuticos.
+
+      .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+        img(src='@/assets/curso/tema1/sub.svg', alt='Imagen decorativa')
+        h3.mb-0.mx-4 Relación con el sistema de aseguramiento en salud
+
+      .bloque-texto-a.color-acento-contenido.p-4.p-md-4.p-lg-5.mb-5(data-aos="fade-right") 
+        .row.m-0.align-items-center.justify-content-center
+          .col-lg-9.mb-0.mb-lg-0
+            .bloque-texto-a__texto.p-lg-5.p-md-4.p-4.mb-lg-0.mb-4.my-3.my-lg-0
+              p.mb-0 En Colombia, el sistema de aseguramiento en salud se fundamenta en el principio de aseguramiento universal, operado a través de las Entidades Promotoras de Salud (EPS), las cuales afilian a la población y garantizan la prestación de los servicios incluidos en el Plan de Beneficios en Salud (PBS). En este marco, los servicios farmacéuticos desempeñan un papel fundamental al garantizar el acceso efectivo y oportuno a medicamentos. Su funcionamiento está directamente relacionado con los procesos administrativos, contractuales y financieros del sistema de aseguramiento.
+          .col-lg-3.col-md-6.col-9.mb-0
+            img(src='@/assets/curso/tema1/31.png', alt='')
+
+      .bloque-texto-g.color-primario.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-left")
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require('@/assets/curso/tema1/32.png')})`}"
+        )
+        .bloque-texto-g__texto.p-lg-5.p-4.p-md-4
+          p.mb-0 La interacción con las EPS es clave para la operación del servicio farmacéutico. Estas entidades contratan con Instituciones Prestadoras de Servicios de Salud (IPS) y con operadores logísticos encargados de la entrega de medicamentos a sus afiliados, tanto en contextos ambulatorios como hospitalarios. Estas relaciones contractuales requieren el cumplimiento de condiciones técnicas, niveles de servicio, indicadores de calidad y esquemas de seguimiento que aseguren el abastecimiento oportuno y la trazabilidad de los productos.
+          br
+          br
+          p.mb-0 Las IPS, por su parte, son los escenarios donde se desarrollan los procesos asistenciales y farmacéuticos. En ellas se reciben las fórmulas médicas, se realiza la dispensación al usuario y se reporta el consumo de medicamentos. Las IPS pueden operar su propio servicio farmacéutico o tercerizarlo con operadores especializados. En cualquier caso, la articulación entre los equipos asistenciales y farmacéuticos es esencial para garantizar una atención segura, eficiente y centrada en el paciente.
+
+      .cajon.color-primario.p-4.p-md-4.p-lg-5.mb-5
+        p.mb-0 En el régimen subsidiado y en regiones con alta demanda, es común que las EPS e IPS establezcan contratos con operadores logísticos para tercerizar parcial o totalmente los servicios farmacéuticos. Estos operadores se encargan de la compra, almacenamiento, distribución y entrega de medicamentos, cumpliendo con los requisitos normativos y contractuales exigidos por el sistema. La evaluación de estos proveedores debe tener en cuenta su capacidad de respuesta, cobertura geográfica, cumplimiento regulatorio, infraestructura tecnológica y experiencia en el manejo de grandes volúmenes.
+        
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-5
+          .bg4.p-4.mb-lg-0.mb-5
+            p.mb-lg-2.my-lg-2.my-md-0.mb-0 Asimismo, se realizan auditorías periódicas, tanto internas como externas, por parte de las EPS, IPS y entes de control como la Superintendencia Nacional de Salud. Estas auditorías verifican el cumplimiento normativo, la correcta dispensación de medicamentos, la trazabilidad, la gestión de inventarios y el desempeño de los proveedores. Los resultados pueden incidir directamente en la renovación de contratos, la imposición de sanciones o la implementación de mejoras en los procesos logísticos.
+        .col-lg-3.d-none.d-lg-block
+          img.imt(src='@/assets/curso/tema1/33.svg', alt='')
+        .col-lg-4
+          .br.mb-2.d-none.d-lg-block
+          p.mb-0 Finalmente, los servicios farmacéuticos participan en los procesos de recobro ante la Administradora de los Recursos del Sistema General de Seguridad Social en Salud (ADRES), especialmente cuando se dispensan medicamentos no incluidos en el PBS. En estos casos, se requiere documentación clínica y administrativa rigurosa, evidencia de entrega, y cumplimiento de los lineamientos del Ministerio de Salud y del ADRES. La adecuada estructuración de estos procesos es clave para la sostenibilidad financiera del sistema y para garantizar el acceso efectivo a tratamientos.
+      
+      .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+        img(src='@/assets/curso/tema1/sub.svg', alt='Imagen decorativa')
+        h3.mb-0.mx-4 Atención al usuario en los servicios farmacéuticos
+
+      .bloque-texto-a.color-secundario.p-4.p-md-4.p-lg-5.mb-5(data-aos="fade-right") 
+        .row.m-0.align-items-center.justify-content-center
+          .col-lg-9.mb-0.mb-lg-0
+            .bloque-texto-a__texto.p-4.mb-lg-0.mb-4.my-3.my-lg-0
+              p.mb-4 La atención al usuario en los servicios farmacéuticos trasciende el acto técnico y representa un compromiso ético y profesional con la salud de la población. Se concibe como un proceso integral que implica interacción humana, comunicación efectiva, responsabilidad técnica y vigilancia sanitaria.
+              p.mb-0 Desde el primer contacto, el usuario debe recibir una atención amable, clara, segura e informada sobre la dispensación y uso de medicamentos. El personal debe estar capacitado en competencias comunicativas, empatía, atención diferencial y resolución de conflictos. Es esencial contar con protocolos estandarizados que aseguren un trato digno y eficiente, sin discriminación. Los canales de atención (presenciales, telefónicos o digitales) deben ser accesibles, y deben existir mecanismos eficaces para la gestión de quejas, sugerencias y reclamos, con tiempos definidos de respuesta y trazabilidad.
+          .col-lg-3.col-md-6.col-9.mb-0
+            img(src='@/assets/curso/tema1/34.png', alt='')
+
+      .bg1.mb-5
+        .row.justify-content-center.align-items-center
+          .col-lg-5.col-md-8.col-12.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/tema1/35.png', alt='')
+          .col-lg-7(data-aos="fade-left")
+            .p-4
+              p.mb-4(data-aos="fade-left") La farmacovigilancia es otro pilar esencial, orientado a detectar y reportar reacciones adversas, errores de medicación, interacciones medicamentosas o fallas de calidad. Los servicios farmacéuticos deben contar con protocolos internos de notificación y utilizar los formatos oficiales del INVIMA, promoviendo una cultura institucional de reporte. Esta vigilancia activa fortalece la seguridad del paciente y mejora continuamente el perfil de riesgo de los medicamentos.
+              p.mb-0(data-aos="fade-left") La educación al usuario también es clave. Cada persona debe recibir información comprensible sobre la dosis, vía de administración, frecuencia, duración del tratamiento, efectos secundarios, interacciones y condiciones de almacenamiento. Esta orientación debe adaptarse al nivel educativo del paciente y, si es necesario, apoyarse con materiales gráficos o pictogramas. Una mala comunicación en este aspecto puede causar errores de administración o abandono del tratamiento.
+      
+      .cajon.color-acento-contenido.p-4.p-md-4.p-lg-5.mb-5
+        p.mb-0 En caso de presentarse eventos adversos o errores de medicación, el servicio debe activar los protocolos de manejo clínico y legal, realizar la evaluación de causalidad, documentar el caso y definir junto al equipo médico si se continúa o suspende el tratamiento. La gestión oportuna de estos casos es un indicador directo de la calidad del servicio farmacéutico y su impacto en la seguridad del paciente.
+
+      .tarjeta.color-primario.p-4.mb-0(data-aos="fade-right")
+        .row.justify-content-around.align-items-center
+          .col-3.col-sm-2.col-lg-1
+            img(src="@/assets/curso/tema1/36.svg")
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                h4.mb-2.blu Proceso de recepción de medicamentos y dispositivos médicos
+                p.mb-0 Para fortalecer el tema anteriormente abordado, se invita a consultar el siguiente enlace: 
+              .col-sm-auto
+                a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=GUI1LIrWu0s" target="_blank")
+                  span Abrir video
+                  i.fas.fa-file-video
 
   </template>
 
