@@ -37,9 +37,9 @@
         .col-lg-3.col-md-6.col-9.mb-0
           img(src='@/assets/curso/tema3/3.png', alt='')
 
-    .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+    .titulo3.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
       img(src='@/assets/curso/tema1/sub.svg', alt='Imagen decorativa')
-      h3.mb-0.mx-4 Criterios de clasificación de proveedores farmacéuticos
+      h3.mb-0.mx-lg-4.mx-md-4.mx-3.ps-lg-3 Criterios de clasificación de proveedores farmacéuticos
 
     .tarjeta.tarjeta--grisa.p-4.mb-5
       LineaTiempoC.color-acento-botones
@@ -74,13 +74,13 @@
                 ul.lista-ul
                   li.d-flex.mb-1
                     i.fas.fa-pills
-                    p.mb-0 Distribuidores mayoristas: adquieren productos directamente de laboratorios o importadores y los comercializan a gran escala a droguerías, IPS o EPS.
+                    p.mb-0 #[b Distribuidores mayoristas:] adquieren productos directamente de laboratorios o importadores y los comercializan a gran escala a droguerías, IPS o EPS.
                   li.d-flex.mb-1
                     i.fas.fa-pills
-                    p.mb-0 Operadores logísticos tercerizados: se encargan de la compra, almacenamiento, distribución y dispensación de medicamentos en nombre de una EPS o IPS.
+                    p.mb-0 #[b Operadores logísticos tercerizados:] se encargan de la compra, almacenamiento, distribución y dispensación de medicamentos en nombre de una EPS o IPS.
                   li.d-flex.mb-1
                     i.fas.fa-pills
-                    p.mb-0 Fabricantes: laboratorios nacionales o internacionales con capacidad de producción directa.
+                    p.mb-0 #[b Fabricantes:] laboratorios nacionales o internacionales con capacidad de producción directa.
               .col-lg-5.col-md-9.col-9
                 img(src='@/assets/curso/tema3/4.png', alt='Imagen decorativa')
         .row.justify-content-center.align-items-bettwen
@@ -104,9 +104,9 @@
     .cajon.color-secundario.p-4.p-md-4.p-lg-5.mb-5
       p.mb-0 Esta clasificación permite la elaboración de matrices de evaluación y escalas de cumplimiento diferenciadas, fundamentales para asegurar la continuidad en el suministro y la calidad en la gestión del servicio farmacéutico.
 
-    .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+    .titulo3.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
       img(src='@/assets/curso/tema1/sub.svg', alt='Imagen decorativa')
-      h3.mb-0.mx-4 Requisitos de habilitación de proveedores farmacéuticos
+      h3.mb-0.mx-lg-4.mx-md-4.mx-3.ps-lg-3 Requisitos de habilitación de proveedores farmacéuticos
 
     .bloque-texto-a.color-acento-contenido.te2.p-4.p-md-4.p-lg-5.mb-5(data-aos="fade-right") 
       .row.m-0.align-items-center.justify-content-center
@@ -117,42 +117,37 @@
           img.img-a.img-t.imas1.d-none.d-lg-block(src='@/assets/curso/tema3/7.png', alt='')
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
-      .col-auto.ps-3.pe-0
+      .col-auto.ps-lg-3.pe-lg-0.ps-0.pe-0
         .titu
-      .col.ps-0
-        .sub.p-2.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
+      .col.ps-lg-0
+        .sub.p-lg-2.p-3.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
           h4.mb-0 Principales requisitos de habilitación
-    
-    .row.justify-content-center.align-items-stretch.mb-5
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-primario.p-5
-          .tarjeta-numerada__numero
-            .h2 1
-          p.text-center.mb-lg-0.mb-0 Registro como persona jurídica ante la Cámara de Comercio, con objeto social relacionado con actividades farmacéuticas.
-
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-secundario.p-5
-          .tarjeta-numerada__numero
-            .h2 2
-          p.text-center.mb-lg-4.mb-md-4.mb-0 Registro ante la DIAN, con responsabilidad fiscal actualizada y autorización para emitir facturación electrónica.
-
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-acento-botones.p-5
-          .tarjeta-numerada__numero
-            .h2 3
-          p.text-center.mb-lg-4 Certificado de existencia y representación legal, vigente y expedido por la Cámara de Comercio.
-
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-acento-botoness.p-5
-          .tarjeta-numerada__numero
-            .h2 4
-          p.text-center.mb-lg-4.mb-md-5.mb-0 Registro sanitario otorgado por el INVIMA, válido y vigente para todos los productos ofrecidos.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3.col-md-5.col-7.mb-4
+      .col-lg-3.col-md-5.col-7.mb-lg-0.mb-4
         img(src='@/assets/curso/tema3/8.png', alt='')
       .col-lg-9
         SlyderF(columnas="col-lg-4 col-md-6 col-xl-4")
+          .tarjeta.tarjeta--slyder.b1.p-2.p-lg-4.p-md-3
+            .row.justify-content-center.align-items-center.mb-4
+              .col-7
+                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema3/16.svg' alt='AvatarTop')
+            p.mb-2.text-center(data-aos="fade-right") Registro como persona jurídica ante la Cámara de Comercio, con objeto social relacionado con actividades farmacéuticas.
+          .tarjeta.tarjeta--slyder.b1.p-2.p-lg-4.p-md-3
+            .row.justify-content-center.align-items-center.mb-4
+              .col-7
+                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema3/17.svg' alt='AvatarTop')
+            p.mb-2.text-center(data-aos="fade-right") Registro ante la DIAN, con responsabilidad fiscal actualizada y autorización para emitir facturación electrónica.
+          .tarjeta.tarjeta--slyder.b1.p-2.p-lg-4.p-md-3
+            .row.justify-content-center.align-items-center.mb-4
+              .col-7
+                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema3/18.svg' alt='AvatarTop')
+            p.mb-2.text-center(data-aos="fade-right") Certificado de existencia y representación legal, vigente y expedido por la Cámara de Comercio.
+          .tarjeta.tarjeta--slyder.b1.p-2.p-lg-4.p-md-3
+            .row.justify-content-center.align-items-center.mb-4
+              .col-7
+                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema3/19.svg' alt='AvatarTop')
+            p.mb-2.text-center(data-aos="fade-right") Registro sanitario otorgado por el INVIMA, válido y vigente para todos los productos ofrecidos.
           .tarjeta.tarjeta--slyder.b1.p-2.p-lg-4.p-md-3
             .row.justify-content-center.align-items-center.mb-4
               .col-7

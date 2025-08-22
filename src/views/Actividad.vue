@@ -44,7 +44,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos en Desarrollo de procesos de reserva en establecimientos de alojamiento.',
+            'Ha captado con claridad los conceptos del componente Fundamentos técnicos y normativos del sector farmacéutico.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -67,7 +67,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos en Desarrollo de procesos de reserva en establecimientos de alojamiento.',
+            'Ha captado con claridad los conceptos del componente Fundamentos técnicos y normativos del sector farmacéutico.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -90,7 +90,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos en Desarrollo de procesos de reserva en establecimientos de alojamiento.',
+            'Ha captado con claridad los conceptos del componente Fundamentos técnicos y normativos del sector farmacéutico.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -113,7 +113,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos en Desarrollo de procesos de reserva en establecimientos de alojamiento.',
+            'Ha captado con claridad los conceptos del componente Fundamentos técnicos y normativos del sector farmacéutico.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -136,7 +136,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos en Desarrollo de procesos de reserva en establecimientos de alojamiento.',
+            'Ha captado con claridad los conceptos del componente Fundamentos técnicos y normativos del sector farmacéutico.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -159,7 +159,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos en Desarrollo de procesos de reserva en establecimientos de alojamiento.',
+            'Ha captado con claridad los conceptos del componente Fundamentos técnicos y normativos del sector farmacéutico.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -182,7 +182,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos en Desarrollo de procesos de reserva en establecimientos de alojamiento.',
+            'Ha captado con claridad los conceptos del componente Fundamentos técnicos y normativos del sector farmacéutico.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -205,7 +205,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos en Desarrollo de procesos de reserva en establecimientos de alojamiento.',
+            'Ha captado con claridad los conceptos del componente Fundamentos técnicos y normativos del sector farmacéutico.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -228,7 +228,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos en Desarrollo de procesos de reserva en establecimientos de alojamiento.',
+            'Ha captado con claridad los conceptos del componente Fundamentos técnicos y normativos del sector farmacéutico.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -251,7 +251,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos en Desarrollo de procesos de reserva en establecimientos de alojamiento.',
+            'Ha captado con claridad los conceptos del componente Fundamentos técnicos y normativos del sector farmacéutico.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },

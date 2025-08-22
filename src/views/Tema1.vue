@@ -25,32 +25,36 @@
           .col-lg-3.col-md-6.col-9.mb-0
             img(src='@/assets/curso/tema1/2.png', alt='')
 
-      .tarjetaf.overflow-hidden.p-4.mb-5
-        SlyderA(tipo="b").slider-a-custom(data-aos="zoom-in-left")
-          .row.justify-content-center.align-items-center.p-0.p-lg-4
-            .col-lg-7
-              h4.mb-4 Medicamentos
-              p.mb-4 Constituyen el eje central del servicio farmacéutico. Son productos que contienen principios activos con propiedades terapéuticas, destinados a la prevención, diagnóstico, tratamiento o alivio de enfermedades. Se clasifican en cuatro categorías principales: medicamentos de venta libre, medicamentos con fórmula médica, medicamentos controlados y medicamentos vitales no disponibles.
-              p.mb-lg-0.mb-4 En Colombia, su producción, importación, comercialización y dispensación están reguladas por el Instituto Nacional de Vigilancia de Medicamentos y Alimentos (INVIMA), bajo normativas como la Resolución 1403 de 2007 y la Resolución 1557 de 2023. Los proveedores deben contar con registro sanitario vigente, cumplir con las Buenas Prácticas de Manufactura y garantizar la trazabilidad del producto en toda la cadena de suministro.
-            .col-lg-5.col-md-7
-              img.mb-0(alt="" src="@/assets/curso/tema1/3.svg")
-          .row.justify-content-center.align-items-center.p-0.p-lg-4
-            .col-lg-7
-              h4.mb-4 Insumos para la salud
-              p.mb-4 Incluyen materiales de uso médico o quirúrgico que, aunque no poseen acción farmacológica directa, son fundamentales para la atención en salud. Dentro de esta categoría se encuentran elementos como jeringas, guantes, gasas, catéteres, soluciones intravenosas y cintas adhesivas.
-              p.mb-lg-0.mb-4 Debido a su alta rotación y demanda constante, especialmente en instituciones hospitalarias y servicios de urgencias, es indispensable que los proveedores aseguren disponibilidad permanente, entregas oportunas y el cumplimiento de normas de calidad e higiene.
-            .col-lg-5.col-md-7
-              img.mb-0(alt="" src="@/assets/curso/tema1/4.svg")
-
-      .bloque-texto-g.color-secundario.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-left")
+      .titulo6.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+        img(src='@/assets/curso/tema1/sub.svg', alt='Imagen decorativa')
+        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Medicamentos
+      
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-7
+          p.mb-4 Constituyen el eje central del servicio farmacéutico. Son productos que contienen principios activos con propiedades terapéuticas, destinados a la prevención, diagnóstico, tratamiento o alivio de enfermedades. Se clasifican en cuatro categorías principales: medicamentos de venta libre, medicamentos con fórmula médica, medicamentos controlados y medicamentos vitales no disponibles.
+          p.mb-lg-0.mb-4 En Colombia, su producción, importación, comercialización y dispensación están reguladas por el Instituto Nacional de Vigilancia de Medicamentos y Alimentos (INVIMA), bajo normativas como la Resolución 1403 de 2007 y la Resolución 1557 de 2023. Los proveedores deben contar con registro sanitario vigente, cumplir con las Buenas Prácticas de Manufactura y garantizar la trazabilidad del producto en toda la cadena de suministro.
+        .col-lg-5.col-md-7.col-9
+          img(alt="" src="@/assets/curso/tema1/3.png")
+      
+      .titulo7.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+        img(src='@/assets/curso/tema1/sub.svg', alt='Imagen decorativa')
+        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Insumos para la salud
+      
+      .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-4.p-md-4.p-lg-5.mb-5(data-aos="fade-left")
         .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/tema1/5.png')})`}"
+          :style="{'background-image': `url(${require('@/assets/curso/tema1/4.png')})`}"
         )
-        .bloque-texto-g__texto.p-lg-5.p-4.p-md-4
-          .ti.p-2.d-flex.mb-4(data-aos="fade-left")
-            h4.mb-0.ps-3.pe-3 Dispositivos médicos
-          p.mb-0 Comprenden instrumentos, equipos, implementos o materiales utilizados en la prevención, diagnóstico, monitoreo o tratamiento de enfermedades. Esta categoría incluye productos como tensiómetros, termómetros digitales, equipos de infusión, monitores de signos vitales, prótesis, válvulas, entre otros.
+        .bloque-texto-g__texto.p-lg-5.p-4
+          p.mb-0 Incluyen materiales de uso médico o quirúrgico que, aunque no poseen acción farmacológica directa, son fundamentales para la atención en salud. Dentro de esta categoría se encuentran elementos como jeringas, guantes, gasas, catéteres, soluciones intravenosas y cintas adhesivas.
+          br
+          br
+          p.mb-0 Debido a su alta rotación y demanda constante, especialmente en instituciones hospitalarias y servicios de urgencias, es indispensable que los proveedores aseguren disponibilidad permanente, entregas oportunas y el cumplimiento de normas de calidad e higiene.
 
+      .titulo7.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+        img(src='@/assets/curso/tema1/sub.svg', alt='Imagen decorativa')
+        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Dispositivos médicos
+
+      p.mb-4 Comprenden instrumentos, equipos, implementos o materiales utilizados en la prevención, diagnóstico, monitoreo o tratamiento de enfermedades. Esta categoría incluye productos como tensiómetros, termómetros digitales, equipos de infusión, monitores de signos vitales, prótesis, válvulas, entre otros.
       p.mb-4 En el contexto colombiano, el INVIMA clasifica los dispositivos médicos según su nivel de riesgo:
 
       .row.justify-content-center.align-items-center.mb-5
@@ -79,7 +83,7 @@
                         p.mb-0 - Cánulas nasales
                         p.mb-0 - Vendajes
                 tr
-                  td Clase IIa (riesgo moderado)
+                  td Clase IIA (riesgo moderado)
                   td 
                     .row
                       .col-lg-12.left
@@ -89,7 +93,7 @@
                         p.mb-0 - Equipos de terapia respiratoria domiciliaria
                         p.mb-0 - Jeringas automáticas
                 tr
-                  td Clase IIb (riesgo moderado alto)
+                  td Clase IIB (riesgo moderado alto)
                   td 
                     .row
                       .col-lg-12.left
@@ -105,24 +109,36 @@
                       .col-lg-12.left
                         p.mb-0 - Marcapasos
                         p.mb-0 - Prótesis ortopédicas internas (caderas, rodillas)
-                        p.mb-0 - Válvulas cardiacas
+                        p.mb-0 - Válvulas cardíacas
                         p.mb-0 - #[em Stents] coronarios
                         p.mb-0 - Dispositivos de asistencia ventricular
+        .col-lg-4.d-none.d-lg-block
+          img.mb-0(alt="" src="@/assets/curso/tema1/37.png")
 
       .cajon.color-secundario.p-4.p-md-4.p-lg-5.mb-5
         p.mb-0 Esta clasificación determina las condiciones para su registro, comercialización y control sanitario. Los proveedores deben contar con certificaciones técnicas, presentar fichas técnicas y estudios de funcionalidad, y cumplir con la normativa vigente que garantiza la seguridad, eficacia y calidad del producto.
 
-      AcordionA.activo(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-0(data-aos="fade-right")
-        .row.justify-content-center.align-items.p-2(titulo="Productos homeopáticos")
-          .col-lg-6.mb-lg-0.mb-4
-            p.mb-0 Aunque no hacen parte del modelo biomédico convencional, los productos homeopáticos tienen una presencia reconocida en algunos servicios farmacéuticos. Son elaborados a partir de sustancias de origen vegetal, mineral o animal, y se fundamentan en los principios propios de la homeopatía. En Colombia, su regulación está a cargo del INVIMA, el cual exige registro sanitario, validación de los procesos de preparación y cumplimiento de condiciones específicas de conservación. La selección de proveedores en esta categoría debe contemplar su experiencia, especialización y alineación con criterios de calidad terapéutica y trazabilidad del producto.
-          .col-lg-6.col-md-9.col-10
-            img.mb-0(alt="" src="@/assets/curso/tema1/7.png")
-        .row.justify-content-center.align-items.p-2(titulo="Suplementos nutricionales")
-          .col-lg-6.mb-lg-0.mb-4
-            p.mb-0 Incluyen productos como vitaminas, minerales, aminoácidos, prebióticos, probióticos y otras sustancias destinadas a complementar la alimentación. Aunque no son considerados medicamentos, tienen implicaciones directas sobre la salud, por lo que están sujetos a control sanitario. Su evaluación debe considerar la composición nutricional, respaldo científico, etiquetado adecuado y cumplimiento de normas de inocuidad alimentaria. Un proveedor confiable debe garantizar productos certificados, disponer de fichas técnicas y cumplir con los requisitos del INVIMA y otras autoridades sanitarias competentes.
-          .col-lg-6.col-md-9.col-10
-            img.mb-0(alt="" src="@/assets/curso/tema1/8.png")
+      .bloque-texto-a.color-secundarios.p-4.p-md-4.p-lg-5.mb-5(data-aos="fade-right") 
+        .row.m-0.align-items-center.justify-content-center
+          .col-lg-9.mb-0.mb-lg-0
+            .bloque-texto-a__texto.p-lg-5.p-4.mb-lg-0.mb-4.my-3.my-lg-0
+              p.mb-0 Aunque no hacen parte del modelo biomédico convencional, los productos homeopáticos tienen una presencia reconocida en algunos servicios farmacéuticos. Son elaborados a partir de sustancias de origen vegetal, mineral o animal, y se fundamentan en los principios propios de la homeopatía. En Colombia, su regulación está a cargo del INVIMA, el cual exige registro sanitario, validación de los procesos de preparación y cumplimiento de condiciones específicas de conservación. La selección de proveedores en esta categoría debe contemplar su experiencia, especialización y alineación con criterios de calidad terapéutica y trazabilidad del producto.
+          .col-lg-3.col-md-6.col-9.mb-0
+            img(src='@/assets/curso/tema1/38.png', alt='')
+
+      .titulo8.mb-lg-5.mb-5.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+        img(src='@/assets/curso/tema1/sub.svg', alt='Imagen decorativa')
+        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Suplementos nutricionales
+      
+      .row.justify-content-center.align-items-start.mb-0(data-aos="fade-right")
+        .col-lg-5.col-md-8.col-10.mb-4
+          img(src='@/assets/curso/tema1/7.png')
+        .col-lg-7
+          .row.justify-content-center.align-items
+            .col-lg-2
+              img.d-none.d-lg-block(src='@/assets/curso/tema1/8.svg')
+            .col-lg-10
+              p.mb-0 Incluyen productos como vitaminas, minerales, aminoácidos, prebióticos, probióticos y otras sustancias destinadas a complementar la alimentación. Aunque no son considerados medicamentos, tienen implicaciones directas sobre la salud, por lo que están sujetos a control sanitario. Su evaluación debe considerar la composición nutricional, respaldo científico, etiquetado adecuado y cumplimiento de normas de inocuidad alimentaria. Un proveedor confiable debe garantizar productos certificados, disponer de fichas técnicas y cumplir con los requisitos del INVIMA y otras autoridades sanitarias competentes.
 
       separador
       #t_1_1.titulo-segundo.mb-5
@@ -327,7 +343,8 @@
                 figure
                   img(src='@/assets/curso/tema1/15.png', alt='Texto que describa la imagen')
 
-            
+      p.mb-0 Esto garantiza la trazabilidad térmica en toda la cadena logística y protege la eficacia del producto hasta su uso final.       
+      
       separador
       #t_1_2.titulo-segundo.mb-5
         h2 1.2 Modelo de operación en servicios farmacéuticos
@@ -383,10 +400,10 @@
           p.mb-0 El control de medicamentos de uso institucional es otra exigencia clave, especialmente para productos regulados por el Estado o con alto riesgo sanitario. Estos medicamentos requieren seguimiento específico en su prescripción, distribución y administración. El proveedor debe estar autorizado para su comercialización, cumplir con normas de transporte seguro y respetar lo dispuesto en normativas como la Resolución 1478 de 2006 y las circulares técnicas del INVIMA.
 
       .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
-        .col-auto.ps-3.pe-0
+        .col-auto.ps-lg-3.pe-lg-0.ps-0.pe-0
           .titu
-        .col.ps-0
-          .sub.p-2.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
+        .col.ps-lg-0
+          .sub.p-lg-2.p-3.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
             h4.mb-0 Responsabilidades del dispensador frente al control de medicamentos de uso institucional
 
       p.mb-4 El dispensador tiene funciones clave para asegurar el cumplimiento normativo, entre ellas:
@@ -415,7 +432,7 @@
 
       .titulo.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
         img(src='@/assets/curso/tema1/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-4 Buenas prácticas del dispensador en el control de medicamentos de uso institucional
+        h3.mb-0.mx-lg-4.mx-3.ps-lg-3 Buenas prácticas del dispensador en el control de medicamentos de uso institucional
 
       .row.justify-content-center.align-items-start.mb-5
         .col-lg-8
@@ -451,22 +468,18 @@
             p.mb-0 El dispensador debe colaborar activamente con auditorías internas, con los entes de control (como la Superintendencia Nacional de Salud), y participar en los procesos de mejora continua, enfocados especialmente en garantizar una dispensación segura, eficiente y oportuna.
           .col-lg-6.col-md-9.col-10
             img.mb-0(alt="" src="@/assets/curso/tema1/27.png")
-
-      .bloque-texto-g.color-secundario.bt1.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-left")
-        .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/tema1/28.png')})`}"
-        )
-        .bloque-texto-g__texto.p-lg-5.p-4.p-md-4
-          .ti.p-2.d-flex.mb-4(data-aos="fade-left")
-            h4.mb-0.ps-3.pe-3 Trazabilidad y cumplimiento fiscal en la gestión de proveedores
-          p.mb-0 La trazabilidad de lotes y fechas de vencimiento es un pilar fundamental en la gestión farmacéutica. Cada producto debe estar debidamente identificado con su número de lote y fecha de expiración, además de contar con registros que permitan rastrear su recorrido desde el fabricante hasta el usuario final. Los proveedores, por su parte, deben garantizar documentación clara y actualizada, contar con sistemas que registren entradas y salidas, y tener mecanismos eficientes para el retiro de productos en caso de alertas sanitarias o devoluciones.
-
+        .row.justify-content-center.align-items.p-2(titulo="Trazabilidad y cumplimiento fiscal en la gestión de proveedores")
+          .col-lg-6.mb-lg-0.mb-4
+            p.mb-0 La trazabilidad de lotes y fechas de vencimiento es un pilar fundamental en la gestión farmacéutica. Cada producto debe estar debidamente identificado con su número de lote y fecha de expiración, además de contar con registros que permitan rastrear su recorrido desde el fabricante hasta el usuario final. Los proveedores, por su parte, deben garantizar documentación clara y actualizada, contar con sistemas que registren entradas y salidas, y tener mecanismos eficientes para el retiro de productos en caso de alertas sanitarias o devoluciones.
+          .col-lg-6.col-md-9.col-10
+            img.mb-0(alt="" src="@/assets/curso/tema1/28.png")
+      
       .cajon.color-secundario.p-4.p-md-4.p-lg-5.mb-5
         p.mb-0 En lo que respecta al cumplimiento fiscal, los proveedores deben estar formalmente constituidos, registrados ante la DIAN y habilitados para la facturación electrónica, conforme a lo estipulado por la legislación tributaria vigente. Asimismo, deben cumplir con los requerimientos establecidos por los entes de inspección, vigilancia y control, como el INVIMA, encargado de la regulación sanitaria, y la Superintendencia Nacional de Salud, que supervisa la calidad y legalidad en la prestación de servicios de salud, incluyendo los servicios tercerizados de dispensación y logística.
 
-      .titulo.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      .titulo2.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
         img(src='@/assets/curso/tema1/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-4 Verificación de condiciones de almacenamiento y conservación de productos farmacéuticos
+        h3.mb-0.mx-lg-4.mx-3.ps-lg-3 Verificación de condiciones de almacenamiento y conservación de productos farmacéuticos
 
       .bloque-texto-a.color-secundario.p-4.p-md-4.p-lg-5.mb-5(data-aos="fade-right") 
         .row.m-0.align-items-center.justify-content-center
@@ -492,7 +505,7 @@
 
       .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
         img(src='@/assets/curso/tema1/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-4 Relación con el sistema de aseguramiento en salud
+        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Relación con el sistema de aseguramiento en salud
 
       .bloque-texto-a.color-acento-contenido.p-4.p-md-4.p-lg-5.mb-5(data-aos="fade-right") 
         .row.m-0.align-items-center.justify-content-center
@@ -527,7 +540,7 @@
       
       .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
         img(src='@/assets/curso/tema1/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-4 Atención al usuario en los servicios farmacéuticos
+        h3.mb-0.mx-lg-4.mx-md-4.mx-3.ps-lg-3 Atención al usuario en los servicios farmacéuticos
 
       .bloque-texto-a.color-secundario.p-4.p-md-4.p-lg-5.mb-5(data-aos="fade-right") 
         .row.m-0.align-items-center.justify-content-center

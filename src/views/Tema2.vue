@@ -17,58 +17,50 @@
 
     p.mb-5 Entre las principales características técnicas y regulatorias que deben observarse en un producto farmacéutico, se destacan:
 
-    AcordionA.activo(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-5(data-aos="fade-right")
-      .row.justify-content-center.align-items.p-2(titulo="Nombre genérico y nombre comercial")
-        .col-lg-6.mb-lg-0.mb-4
-          p.mb-0 El nombre genérico identifica el principio activo que ejerce el efecto terapéutico (por ejemplo, paracetamol), mientras que el nombre comercial corresponde a la marca registrada por el laboratorio fabricante (por ejemplo, Dolex). El uso del nombre genérico promueve la prescripción racional, fomenta la competencia y facilita la comparación entre productos equivalentes.
-        .col-lg-6.col-md-9.col-10
-          img.mb-0(alt="" src="@/assets/curso/tema2/2.png")
-      .row.justify-content-center.align-items.p-2(titulo="Forma farmacéutica")
-        .col-lg-6.mb-lg-0.mb-4
-          p.mb-0 Hace referencia a la presentación física del medicamento, como comprimidos, cápsulas, soluciones orales, jarabes, supositorios, inyectables, cremas, entre otros. Esta forma influye directamente en la vía de administración, la biodisponibilidad del principio activo, el perfil de absorción y la adherencia del paciente al tratamiento.
-        .col-lg-6.col-md-9.col-10
-          img.mb-0(alt="" src="@/assets/curso/tema2/3.png")
-      .row.justify-content-center.align-items.p-2(titulo="Vía de administración")
-        .col-lg-6.mb-lg-0.mb-4
-          p.mb-0 Define el trayecto por el cual el medicamento ingresa al organismo, lo que determina su eficacia clínica y velocidad de acción. Las vías más comunes son: oral, intravenosa, intramuscular, subcutánea, tópica, oftálmica, nasal y rectal. Cada vía tiene implicaciones en el diseño del medicamento, en sus excipientes y en su estabilidad.
-        .col-lg-6.col-md-9.col-10
-          img.mb-0(alt="" src="@/assets/curso/tema2/4.png")
-      .row.justify-content-center.align-items.p-2(titulo="Concentración o potencia")
-        .col-lg-6.mb-lg-0.mb-4
-          p.mb-0 Representa la cantidad del principio activo contenida en cada unidad del producto (por ejemplo, 500 mg de amoxicilina por cápsula). Esta información es fundamental para calcular la dosis adecuada y evitar riesgos asociados a la subdosificación o sobredosificación.
-        .col-lg-6.col-md-9.col-10
-          img.mb-0(alt="" src="@/assets/curso/tema2/5.png")
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-11
-        .row.justify-content-center.align-items-end
-          .col-lg-9(data-aos="fade-right").ps-lg-0
-            .crd.crd--avatarHorizontal.crd--first.py-4
-              .row.align-items-center
-                .col-auto
-                  figure
-                    img(src="@/assets/curso/tema2/8.svg", alt="alt")
-                .col
-                  h4.mb-3 Fecha de vencimiento y número de lote
-                  p La fecha de vencimiento indica hasta cuándo el producto mantiene su seguridad y eficacia. El número de lote permite rastrear su origen y proceso de fabricación, siendo esencial en casos de retiro del mercado, alertas sanitarias o investigaciones de calidad.
-            .crd.crd--avatarHorizontal.py-4
-              .row.align-items-center
-                .col-auto
-                  figure
-                    img(src="@/assets/curso/tema2/7.svg", alt="alt")
-                .col
-                  h4.mb-3 Condiciones de almacenamiento
-                  p Cada producto debe conservarse bajo condiciones específicas de temperatura, humedad y luz para preservar su estabilidad. Algunos medicamentos requieren refrigeración (entre 2 °C y 8 °C), mientras que otros deben mantenerse a temperatura ambiente, protegidos de la humedad o la exposición solar directa. El incumplimiento de estas condiciones puede afectar la eficacia del producto o incluso generar compuestos tóxicos.
-            .crd.crd--avatarHorizontal.crd--last.py-4
-              .row.align-items-center
-                .col-auto
-                  figure
-                    img(src="@/assets/curso/tema2/6.svg", alt="alt")
-                .col
-                  h4.mb-3 Registro sanitario
-                  p Es la autorización legal otorgada por el INVIMA que certifica que un medicamento ha sido evaluado y aprobado para su comercialización en Colombia. Este registro, que debe figurar de forma visible en el empaque, incluye el número correspondiente, así como los datos del fabricante y del importador (si aplica). Garantiza que el producto cumple con los requisitos de calidad, seguridad y eficacia clínica.
-          .col-lg-4.sob1.d-none.d-lg-block(data-aos="fade-left")
-            img.mb-4(src="@/assets/curso/tema2/9.svg", alt="alt")
+    .tarjetaf.overflow-hidden.p-4.mb-5
+      SlyderA(tipo="b").slider-a-custom(data-aos="zoom-in-left")
+        .row.justify-content-center.align-items.p-0.p-lg-4
+          .col-lg-7
+            h4.mb-4 Nombre genérico y nombre comercial
+            p.mb-lg-0.mb-4 El nombre genérico identifica el principio activo que ejerce el efecto terapéutico (por ejemplo, paracetamol), mientras que el nombre comercial corresponde a la marca registrada por el laboratorio fabricante (por ejemplo, Dolex). El uso del nombre genérico promueve la prescripción racional, fomenta la competencia y facilita la comparación entre productos equivalentes.
+          .col-lg-5.col-md-8
+            img.mb-0(alt="" src="@/assets/curso/tema2/2.png")
+        .row.justify-content-center.align-items.p-0.p-lg-4
+          .col-lg-7
+            h4.mb-4 Forma farmacéutica
+            p.mb-lg-0.mb-4 Hace referencia a la presentación física del medicamento, como comprimidos, cápsulas, soluciones orales, jarabes, supositorios, inyectables, cremas, entre otros. Esta forma influye directamente en la vía de administración, la biodisponibilidad del principio activo, el perfil de absorción y la adherencia del paciente al tratamiento.
+          .col-lg-5.col-md-8
+            img.mb-0(alt="" src="@/assets/curso/tema2/3.png")
+        .row.justify-content-center.align-items.p-0.p-lg-4
+          .col-lg-7
+            h4.mb-4 Vía de administración
+            p.mb-lg-0.mb-4 Define el trayecto por el cual el medicamento ingresa al organismo, lo que determina su eficacia clínica y velocidad de acción. Las vías más comunes son: oral, intravenosa, intramuscular, subcutánea, tópica, oftálmica, nasal y rectal. Cada vía tiene implicaciones en el diseño del medicamento, en sus excipientes y en su estabilidad.
+          .col-lg-5.col-md-8
+            img.mb-0(alt="" src="@/assets/curso/tema2/4.png")
+        .row.justify-content-center.align-items.p-0.p-lg-4
+          .col-lg-7
+            h4.mb-4 Concentración o potencia
+            p.mb-lg-0.mb-4 Representa la cantidad del principio activo contenida en cada unidad del producto (por ejemplo, 500 mg de amoxicilina por cápsula). Esta información es fundamental para calcular la dosis adecuada y evitar riesgos asociados a la subdosificación o sobredosificación.
+          .col-lg-5.col-md-8
+            img.mb-0(alt="" src="@/assets/curso/tema2/5.png")
+        .row.justify-content-center.align-items.p-0.p-lg-4
+          .col-lg-7
+            h4.mb-4 Fecha de vencimiento y número de lote
+            p.mb-lg-0.mb-4 La fecha de vencimiento indica hasta cuándo el producto mantiene su seguridad y eficacia. El número de lote permite rastrear su origen y proceso de fabricación, siendo esencial en casos de retiro del mercado, alertas sanitarias o investigaciones de calidad.
+          .col-lg-5.col-md-8
+            img.mb-0(alt="" src="@/assets/curso/tema2/24.png")
+        .row.justify-content-center.align-items.p-0.p-lg-4
+          .col-lg-7
+            h4.mb-4 Condiciones de almacenamiento
+            p.mb-lg-0.mb-4 Cada producto debe conservarse bajo condiciones específicas de temperatura, humedad y luz para preservar su estabilidad. Algunos medicamentos requieren refrigeración (entre 2 °C y 8 °C), mientras que otros deben mantenerse a temperatura ambiente, protegidos de la humedad o la exposición solar directa. El incumplimiento de estas condiciones puede afectar la eficacia del producto o incluso generar compuestos tóxicos.
+          .col-lg-5.col-md-8
+            img.mb-0(alt="" src="@/assets/curso/tema2/25.png")
+        .row.justify-content-center.align-items.p-0.p-lg-4
+          .col-lg-7
+            h4.mb-4 Registro sanitario
+            p.mb-lg-0.mb-4 Es la autorización legal otorgada por el INVIMA que certifica que un medicamento ha sido evaluado y aprobado para su comercialización en Colombia. Este registro, que debe figurar de forma visible en el empaque, incluye el número correspondiente, así como los datos del fabricante y del importador (si aplica). Garantiza que el producto cumple con los requisitos de calidad, seguridad y eficacia clínica.
+          .col-lg-5.col-md-8
+            img.mb-0(alt="" src="@/assets/curso/tema2/26.png")
 
     p.mb-0 Estas características aseguran que los productos farmacéuticos sean seguros, efectivos y aptos para su uso en la población. Su análisis detallado es indispensable en los procesos de selección de proveedores, adquisición institucional, dispensación y uso racional dentro del sistema de salud colombiano.
 
@@ -85,10 +77,10 @@
           img.img-a.img-t.imas.d-none.d-lg-block(src='@/assets/curso/tema2/9.png', alt='')
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
-      .col-auto.ps-3.pe-0
+      .col-auto.ps-lg-3.pe-lg-0.ps-0.pe-0
         .titu
-      .col.ps-0
-        .sub.p-2.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
+      .col.ps-lg-0
+        .sub.p-lg-2.p-3.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
           h4.mb-0 Según el origen
 
 
@@ -96,34 +88,37 @@
       .col-lg-3.col-md-5.col-7.mb-4
         img(src='@/assets/curso/tema2/13.png', alt='')
       .col-lg-9
-        SlyderF(columnas="col-lg-4 col-md-6 col-xl-4")
-          .tarjeta.tarjeta--slyder.b1.p-2.p-lg-4.p-md-3
-            .row.justify-content-center.align-items-center.mb-4
-              .col-8
-                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema2/10.svg' alt='AvatarTop')
-            .bg5.p-1.mb-4
-              h4.text-center.mb-0.text-white Sintéticos
-            p.mb-2.text-center(data-aos="fade-right") Medicamentos elaborados a partir de compuestos químicos mediante procesos industriales, ejemplo: paracetamol, amlodipino.
-          .tarjeta.tarjeta--slyder.b1.p-2.p-lg-4.p-md-3
-            .row.justify-content-center.align-items-center.mb-4
-              .col-8
-                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema2/11.svg' alt='AvatarTop')
-            .bg5.p-1.mb-4
-              h4.text-center.mb-0.text-white Biotecnológicos
-            p.mb-2.text-center(data-aos="fade-right") Derivados de procesos de ingeniería genética, ejemplo: insulina humana recombinante.
-          .tarjeta.tarjeta--slyder.b1.p-2.p-lg-4.p-md-3
-            .row.justify-content-center.align-items-center.mb-4
-              .col-8
-                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema2/12.svg' alt='AvatarTop')
-            .bg5.p-1.mb-4
-              h4.text-center.mb-0.text-white Naturales
-            p.mb-2.text-center(data-aos="fade-right") Provienen de extractos de plantas o animales, ejemplo: alcachofa, árnica.
+        .row.justify-content-center.align-items-stretch
+          .col-lg-4.col-md-4
+            .tarjeta.tarjeta--slyder.b1.p-4.p-lg-4.p-md-3
+              .row.justify-content-center.align-items-center.mb-4
+                .col-8
+                  img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema2/10.svg' alt='AvatarTop')
+              .bg5.p-1.mb-4
+                h4.text-center.mb-0.text-white Sintéticos
+              p.mb-2.text-center(data-aos="fade-right") Medicamentos elaborados a partir de compuestos químicos mediante procesos industriales, ejemplo: paracetamol, amlodipino.
+          .col-lg-4.col-md-4
+            .tarjeta.tarjeta--slyder.b1.p-4.p-lg-4.p-md-3
+              .row.justify-content-center.align-items-center.mb-4
+                .col-8
+                  img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema2/11.svg' alt='AvatarTop')
+              .bg5.p-1.mb-4
+                h4.text-center.mb-0.text-white Biotecnológicos
+              p.mb-2.text-center(data-aos="fade-right") Derivados de procesos de ingeniería genética, ejemplo: insulina humana recombinante.
+          .col-lg-4.col-md-4
+            .tarjeta.tarjeta--slyder.b1.p-4.p-lg-4.p-md-3
+              .row.justify-content-center.align-items-center.mb-4
+                .col-8
+                  img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema2/12.svg' alt='AvatarTop')
+              .bg5.p-1.mb-4
+                h4.text-center.mb-0.text-white Naturales
+              p.mb-2.text-center(data-aos="fade-right") Provienen de extractos de plantas o animales, ejemplo: alcachofa, árnica.
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
-      .col-auto.ps-3.pe-0
+      .col-auto.ps-lg-3.pe-lg-0.ps-0.pe-0
         .titu
-      .col.ps-0
-        .sub.p-2.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
+      .col.ps-lg-0
+        .sub.p-lg-2.p-3.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
           h4.mb-0 Según el acceso y control normativo
 
     SlyderF(columnas="col-lg-4 col-md-6 col-xl-4").mb-5
@@ -153,10 +148,10 @@
         p.mb-4.text-center(data-aos="fade-right") No comercializados localmente, pero necesarios para tratamientos específicos.
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
-      .col-auto.ps-3.pe-0
+      .col-auto.ps-lg-3.pe-lg-0.ps-0.pe-0
         .titu
-      .col.ps-0
-        .sub.p-2.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
+      .col.ps-lg-0
+        .sub.p-lg-2.p-3.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
           h4.mb-0 Según el uso terapéutico o grupo farmacológico
 
     .bloque-texto-g.color-primario.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-left")
@@ -164,13 +159,13 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema2/18.png')})`}"
       )
       .bloque-texto-g__texto.p-lg-5.p-4.p-md-4
-        p.mb-0 Permite agrupar los medicamentos según la enfermedad o condición que tratan: los productos farmacéuticos se pueden clasificar también por su uso terapéutico, lo cual facilita su organización y evaluación clínica. Entre los grupos más comunes se encuentran los antibióticos, utilizados para tratar infecciones bacterianas; los antiinflamatorios, que reducen la inflamación y el dolor en procesos agudos o crónicos; los antidepresivos, empleados en el tratamiento de trastornos del estado de ánimo como la depresión y la ansiedad; los antiepilépticos, que ayudan a controlar las crisis convulsivas en pacientes con epilepsia; y los antihipertensivos, indicados para el manejo de la presión arterial elevada. Esta clasificación por grupo terapéutico es fundamental en la toma de decisiones clínicas, en la evaluación de proveedores y en la gestión del stock en servicios farmacéuticos.
+        p.mb-0 Permite agrupar los medicamentos según la enfermedad o condición que tratan: los productos farmacéuticos se pueden clasificar también por su uso terapéutico, lo cual facilita su organización y evaluación clínica. Entre los grupos más comunes se encuentran los antibióticos, utilizados para tratar infecciones bacterianas; los antiinflamatorios, que reducen la inflamación y el dolor en procesos agudos o crónicos; los antidepresivos, empleados en el tratamiento de trastornos del estado de ánimo como la depresión y la ansiedad; los antiepilépticos, que ayudan a controlar las crisis convulsivas en pacientes con epilepsia; y los antihipertensivos, indicados para el manejo de la presión arterial elevada. Esta clasificación por grupo terapéutico es fundamental en la toma de decisiones clínicas, en la evaluación de proveedores y en la gestión del #[em stock] en servicios farmacéuticos.
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
-      .col-auto.ps-3.pe-0
+      .col-auto.ps-lg-3.pe-lg-0.ps-0.pe-0
         .titu
-      .col.ps-0
-        .sub.p-2.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
+      .col.ps-lg-0
+        .sub.p-lg-2.p-3.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
           h4.mb-0 Según la Clasificación Anatómica-Terapéutica-Química (ATC)
 
     p.mb-4 Sistema estandarizado de la Organización Mundial de la Salud (OMS) que clasifica medicamentos según órgano, acción terapéutica y composición química.
@@ -186,7 +181,7 @@
                 .col-lg-9(data-aos="fade-left")
                   .bgw.p-3.mb-0
                     .tit.p-2.d-flex.mb-4.mx-lg-4.mx-2(data-aos="fade-left")
-                      h4.mb-0.ps-3.pe-3 Ejemplo
+                      h4.mb-0.ps-3.pe-3 Ejemplo: C09AA05 (Enalapril): 
                     ul.lista-ul.mx-lg-4.mx-2
                       li.d-flex.mb-1
                         i.fas.fa-pills
@@ -205,7 +200,7 @@
 
     .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
       img(src='@/assets/curso/tema1/sub.svg', alt='Imagen decorativa')
-      h3.mb-0.mx-4 Normativa de calidad de productos farmacéuticos
+      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Normativa de calidad de productos farmacéuticos
 
     .bloque-texto-g.color-secundario.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(

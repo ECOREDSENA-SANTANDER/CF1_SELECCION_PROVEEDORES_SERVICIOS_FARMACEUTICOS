@@ -17,52 +17,23 @@
 
     p.mb-5 Entre los principales parámetros de evaluación se destacan:
 
-    .row.justify-content-center.align-items.mb-5
-      .col-lg-7.mb-4
+    .row.justify-content-center.align-items.mb-4
+      .col-lg-9.mb-4
         LineaTiempoD.color-acento-botones.activo
           p.mb-0(numero="1" titulo="Cumplimiento de requisitos legales") Verificación del RUT, certificado de existencia y representación legal, y registros sanitarios otorgados por el INVIMA.
           p.mb-0(numero="2" titulo="Historial de desempeño") Análisis de contratos anteriores, cumplimiento de entregas, calidad del servicio prestado y capacidad de respuesta.
           p.mb-0(numero="3" titulo="Tiempo de entrega") Fundamental en contextos clínicos donde la disponibilidad oportuna de medicamentos es crítica.
           p.mb-0(numero="4" titulo="Condiciones de almacenamiento") Especialmente para productos que requieren cadena de frío o ambientes controlados de temperatura y humedad.
-      .col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/tema4/2.png', alt='')
+          p.mb-0(numero="5" titulo="Soporte posventa") Capacidad para brindar acompañamiento técnico, atender devoluciones o reemplazar productos defectuosos.
+          p.mb-0(numero="6" titulo="Capacidad logística y operativa") Infraestructura, tecnología y personal capacitado para garantizar entregas confiables.
+          p.mb-0(numero="7" titulo="Documentación técnica") Fichas técnicas, certificados de calidad, hojas de seguridad, trazabilidad y evidencia del cumplimiento normativo.
+          p.mb-0(numero="8" titulo="La evaluación puede realizarse en tres momentos") Inicial (proceso de selección), periódica (seguimiento del contrato) y final (evaluación posterior a la ejecución contractual).
+      .col-lg-3.d-none.d-lg-block
+        img(src='@/assets/curso/tema4/2.svg', alt='')
 
-    .row.justify-content-center.align-items-stretch.mb-5
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-primario.p-4
-          .tarjeta-numerada__numero
-            .h2 1
-          p.text-center.mx-lg-4
-            b Soporte posventa
-          p.text-center.mb-lg-5 Capacidad para brindar acompañamiento técnico, atender devoluciones o reemplazar productos defectuosos.
-
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-secundario.p-4
-          .tarjeta-numerada__numero
-            .h2 2
-          p.text-center.mx-lg-4
-            b Capacidad logística y operativa
-          p.text-center.mb-lg-5 Infraestructura, tecnología y personal capacitado para garantizar entregas confiables.
-
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-acento-botones.p-4
-          .tarjeta-numerada__numero
-            .h2 3
-          p.text-center.mx-lg-4 
-            b Documentación técnica
-          p.text-center.mb-lg-4.mb-md-5 Fichas técnicas, certificados de calidad, hojas de seguridad, trazabilidad y evidencia del cumplimiento normativo.
-
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-acento-botoness.p-4
-          .tarjeta-numerada__numero
-            .h2 4
-          p.text-center.mx-4
-            b La evaluación puede realizarse en tres momentos
-          p.text-center.mb-0 Inicial (proceso de selección), periódica (seguimiento del contrato) y final (evaluación posterior a la ejecución contractual).
-
-    .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+    .titulo4.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
       img(src='@/assets/curso/tema1/sub.svg', alt='Imagen decorativa')
-      h3.mb-0.mx-4 Comparación de precios del mercado
+      h3.mb-0.mx-lg-4.mx-md-4.mx-3.ps-lg-3 Comparación de precios del mercado
 
     .cajon.color-secundario.p-4.p-md-4.p-lg-5.mb-5
       p.mb-0 Comparar precios en el mercado es una estrategia necesaria para tomar decisiones de compra eficientes. Sin embargo, la comparación no debe limitarse al precio unitario del producto, sino considerar también la relación costo-beneficio. Para ello, es recomendable elaborar cuadros comparativos que incluyan variables como:
@@ -112,9 +83,9 @@
 
     p.mb-5 Este análisis permite seleccionar proveedores que ofrecen mejores condiciones económicas sin comprometer la calidad ni la seguridad del servicio farmacéutico.
     
-    .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+    .titulo5.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
       img(src='@/assets/curso/tema1/sub.svg', alt='Imagen decorativa')
-      h3.mb-0.mx-4 Evaluación de la capacidad de suministro
+      h3.mb-0.mx-lg-4.mx-md-4.mx-3.ps-lg-3 Evaluación de la capacidad de suministro
 
     p.mb-4 La capacidad de suministro es una variable crítica, ya que garantiza la continuidad del servicio sin interrupciones ni desabastecimientos. Esta se evalúa con base en:
 
@@ -158,7 +129,7 @@
 
     .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
       img(src='@/assets/curso/tema1/sub.svg', alt='Imagen decorativa')
-      h3.mb-0.mx-4 Criterios para evaluar la reputación del proveedor
+      h3.mb-0.mx-lg-4.mx-md-4.mx-3.ps-lg-3 Criterios para evaluar la reputación del proveedor
 
     .cajon.color-acento-contenido.p-4.p-md-4.p-lg-5.mb-5
         p.mb-0 La reputación se construye con base en el comportamiento contractual histórico del proveedor, el cumplimiento normativo, la percepción del cliente y la calidad del servicio. Para su análisis se deben considerar:
@@ -192,9 +163,9 @@
     p.mb-5 Los aprendices del SENA deben desarrollar la capacidad para usar herramientas digitales de consulta, aplicar criterios objetivos y emitir juicios fundamentados sobre esta variable cualitativa.
 
     
-    .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+    .titulo4.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
       img(src='@/assets/curso/tema1/sub.svg', alt='Imagen decorativa')
-      h3.mb-0.mx-4 Definición de escalas de valoración
+      h3.mb-0.mx-lg-4.mx-md-4.mx-3.ps-lg-3 Definición de escalas de valoración
     
     p.mb-5 La escala de valoración permite cuantificar de forma objetiva el nivel de cumplimiento de los criterios establecidos para la selección de proveedores. Estas escalas pueden ser:
 

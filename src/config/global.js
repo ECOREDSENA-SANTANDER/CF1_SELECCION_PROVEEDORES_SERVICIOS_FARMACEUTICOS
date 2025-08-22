@@ -316,7 +316,7 @@ export default {
       autores: [
         {
           nombre: 'Marcos Yamid Rubiano Avellaneda',
-          cargo: 'Diseñadora de contenidos',
+          cargo: 'Diseñador de contenidos',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
