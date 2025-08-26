@@ -118,6 +118,10 @@
       .cajon.color-secundario.p-4.p-md-4.p-lg-5.mb-5
         p.mb-0 Esta clasificación determina las condiciones para su registro, comercialización y control sanitario. Los proveedores deben contar con certificaciones técnicas, presentar fichas técnicas y estudios de funcionalidad, y cumplir con la normativa vigente que garantiza la seguridad, eficacia y calidad del producto.
 
+      .titulo8.mb-lg-5.mb-5.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+        img(src='@/assets/curso/tema1/sub.svg', alt='Imagen decorativa')
+        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Productos homeopáticos
+      
       .bloque-texto-a.color-secundarios.p-4.p-md-4.p-lg-5.mb-5(data-aos="fade-right") 
         .row.m-0.align-items-center.justify-content-center
           .col-lg-9.mb-0.mb-lg-0
