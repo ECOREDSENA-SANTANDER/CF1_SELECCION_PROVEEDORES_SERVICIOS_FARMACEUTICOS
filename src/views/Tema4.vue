@@ -38,7 +38,7 @@
     .cajon.color-secundario.p-4.p-md-4.p-lg-5.mb-5
       p.mb-0 Comparar precios en el mercado es una estrategia necesaria para tomar decisiones de compra eficientes. Sin embargo, la comparación no debe limitarse al precio unitario del producto, sino considerar también la relación costo-beneficio. Para ello, es recomendable elaborar cuadros comparativos que incluyan variables como:
 
-    .row.justify-content-center.align-items-center.mb-lg-5.mb-4
+    .row.justify-content-center.align-items-center.mb-lg-0.mb-0
       .col-lg-3.col-md-6.col-10.pe-lg-0.mb-lg-0.mb-4
         .bg3.p-4
           .row.justify-content-center.align-items-center.mb-4
@@ -57,29 +57,25 @@
             .col-7
               img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/tema4/5.svg' alt='AvatarTop')
             p.mb-lg-4.mb-0.text-center(data-aos="fade-right") Condiciones de pago.
-      .col-lg-3.col-md-6.col-10.ps-lg-0.mb-lg-0.mb-4
+    .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4
+      .col-lg-3.col-md-6.col-10.pe-lg-0.mb-lg-0.mb-4
         .bg1.p-4
           .row.justify-content-center.align-items-center.mb-4
             .col-7
               img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/tema4/6.svg' alt='AvatarTop')
             p.mb-lg-4.mb-0.text-center(data-aos="fade-right") Descuentos por volumen.
-
-
-    .row.justify-content-center.align-items-center.mb-lg-5
-      .col-lg-6.col-md-6.col-10.pe-lg-0.mb-lg-0.mb-4
-        .tarjeta.ta4.p-4
-          .row.justify-content-center.align-items-center
-            .col-lg-3.mb-lg-0.mb-4
-              img.img-a.img-t(src='@/assets/curso/tema4/7.svg', alt='Imagen decorativa.')
-            .col-lg-9
-              p.mb-0 Plazos y cumplimiento de entrega.
-      .col-lg-6.col-md-6.col-10.ps-lg-0.mb-lg-0.mb-4
-        .tarjeta.ta41.p-4
-          .row.justify-content-center.align-items-center.mb-0
-            .col-lg-3.mb-lg-0.mb-4
-              img.img-a.img-t(src='@/assets/curso/tema4/8.svg', alt='Imagen decorativa.')
-            .col-lg-9
-              p.mb-0.text-white Calidad y garantía del producto.
+      .col-lg-3.col-md-6.col-10.ps-lg-0.pe-lg-0.mb-lg-0.mb-4
+        .bg3.p-4
+          .row.justify-content-center.align-items-center.mb-4
+            .col-7
+              img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/tema4/4.svg' alt='AvatarTop')
+            p.mb-lg-4.mb-md-0.mb-0.text-center(data-aos="fade-right") Plazos y cumplimiento de entrega.
+      .col-lg-3.col-md-6.col-10.ps-lg-0.pe-lg-0.mb-lg-0.mb-4
+        .bg1.p-4
+          .row.justify-content-center.align-items-center.mb-4
+            .col-7
+              img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/tema4/5.svg' alt='AvatarTop')
+            p.mb-lg-4.mb-0.text-center(data-aos="fade-right") Calidad y garantía del producto.
 
     p.mb-5 Este análisis permite seleccionar proveedores que ofrecen mejores condiciones económicas sin comprometer la calidad ni la seguridad del servicio farmacéutico.
     
@@ -136,25 +132,25 @@
 
     .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4
       .col-lg-3.col-md-6.col-10.mb-lg-0.mb-4
-        .overflow-hidden.h-100.bg7.p-4
+        .h-100.bg7.p-4
           .row.justify-content-center.align-items-center.mb-4
             .col-7.mb-4.my-4
               img.ima1.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/16.svg' alt='AvatarTop')
           p.mb-0.text-center(data-aos="fade-right") Consultas en plataformas oficiales como SECOP o RUES.
       .col-lg-3.col-md-6.col-10.mb-lg-0.mb-4
-        .overflow-hidden.h-100.bg7.p-4
+        .h-100.bg7.p-4
           .row.justify-content-center.align-items-center.mb-4
             .col-7.mb-4.my-4
               img.ima2.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/17.svg' alt='AvatarTop')
           p.mb-3.text-center(data-aos="fade-right") Verificación de sanciones o alertas por parte del INVIMA o la Superintendencia Nacional de Salud.
       .col-lg-3.col-md-6.col-10.mb-lg-0.mb-4
-        .overflow-hidden.h-100.bg7.p-4
+        .h-100.bg7.p-4
           .row.justify-content-center.align-items-center.mb-4
             .col-7.mb-4.my-4
               img.ima3.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/18.svg' alt='AvatarTop')
           p.mb-0.text-center(data-aos="fade-right") Referencias de otras instituciones contratantes.
       .col-lg-3.col-md-6.col-10.mb-lg-0.mb-4
-        .overflow-hidden.h-100.bg7.p-4
+        .h-100.bg7.p-4
           .row.justify-content-center.align-items-center.mb-4
             .col-7.mb-4.my-4
               img.ima4.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/19.svg' alt='AvatarTop')
@@ -194,12 +190,10 @@
           .col-lg-4.sob.d-none.d-lg-block(data-aos="fade-left")
             img(src="@/assets/curso/tema4/25.png", alt="alt")
           .col-lg-9(data-aos="fade-right").ps-lg-0.mb-1
-            .bg6.p-4
+            .bg6.p-5
               .row.justify-content-center
                 .col-lg-9(data-aos="fade-left")
-                  .bgw.p-3.mb-0
-                    .tit.p-2.d-flex.mb-4.mx-lg-4.mx-2(data-aos="fade-left")
-                      h4.mb-0.ps-3.pe-3 Ejemplo
+                  .bgw.p-4.mb-0
                     ul.lista-ul.mx-lg-4.mx-2
                       li.d-flex.mb-1
                         i.fas.fa-pills
@@ -210,7 +204,7 @@
                       li.d-flex.mb-1
                         i.fas.fa-pills
                         p.mb-0 #[b Tiempo de entrega:] 25 %
-                      li.d-flex.mb-1
+                      li.d-flex.mb-0
                         i.fas.fa-pills
                         p.mb-0 #[b Precio:] 20 %
       .col-lg-4.d-none.d-lg-block
@@ -222,8 +216,6 @@
       )
       .bloque-texto-g__texto.p-lg-5.p-4.p-md-4
         p.mb-0 Una vez calificados los proveedores, se calcula un puntaje total ponderado, lo cual permite su clasificación objetiva. Esta herramienta no solo orienta la decisión de compra, sino que también sirve como soporte técnico ante auditorías, procesos contractuales o reclamaciones.
-
-
 
 </template>
 

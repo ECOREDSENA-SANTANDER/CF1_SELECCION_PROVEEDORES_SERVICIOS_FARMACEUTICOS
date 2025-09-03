@@ -185,16 +185,16 @@
                     ul.lista-ul.mx-lg-4.mx-2
                       li.d-flex.mb-1
                         i.fas.fa-pills
-                        p.mb-0 #[b C:] Sistema cardiovascular
+                        p.mb-0 #[b C:] Sistema cardiovascular.
                       li.d-flex.mb-1
                         i.fas.fa-pills
-                        p.mb-0 #[b 09:] Sistema renina-angiotensina
+                        p.mb-0 #[b 09:] Sistema renina-angiotensina.
                       li.d-flex.mb-1
                         i.fas.fa-pills
-                        p.mb-0 A#[b A:] inhibidores ECA
+                        p.mb-0 A#[b A:] inhibidores ECA.
                       li.d-flex.mb-1
                         i.fas.fa-pills
-                        p.mb-0 #[b 05:] Enalapril
+                        p.mb-0 #[b 05:] Enalapril.
       .col-lg-4.d-none.d-lg-block
         img(data-aos="zoom-in-left")(src='@/assets/curso/tema2/21.svg' alt='')
 
