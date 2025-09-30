@@ -66,7 +66,7 @@
 
           .tabla-a.color-acento-contenido
             table
-              caption Referencia Tabla - Norma APA
+              caption Fuente: Instituto Nacional de Vigilancia de Medicamentos y Alimentos [INVIMA], 2021. 
               thead
                 tr
                   th Nivel de riesgo
@@ -369,8 +369,7 @@
           .col-lg-5.col-md-8.col-12.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/tema1/17.png', alt='')
           .col-lg-7(data-aos="fade-left")
             .p-4
-              p.mb-0(data-aos="fade-left") Otro modelo clave es la dispensación institucional, propio de hospitales, clínicas y Entidades Promotoras de Salud (EPS), donde los medicamentos se entregan directamente a pacientes afiliados o usuarios internos. Este modelo exige una coordinación precisa entre farmacia, compras y prescripción médica. Los proveedores deben cumplir estrictamente con la normativa sanitaria, garantizar trazabilidad del producto, ofrecer soporte técnico posventa y mantener una gestión documental adecuada (registro sanitario, fichas técnicas, certificados de calidad). Frecuentemente se exige la entrega por dosis unitaria o en empaques específicos para cada paciente.
-
+              p.mb-0(data-aos="fade-left") Otro modelo clave es la dispensación institucional, propio de hospitales, clínicas y Entidades Promotoras de Salud (EPS), donde los medicamentos se entregan directamente a pacientes afiliados o usuarios internos. Este modelo exige una coordinación precisa entre farmacia, compras y prescripción médica. Los proveedores deben cumplir estrictamente con la normativa sanitaria, garantizar la trazabilidad del producto, ofrecer soporte técnico posventa y mantener una gestión documental adecuada (registro sanitario, fichas técnicas, certificados de calidad). Frecuentemente, se exige la entrega por dosis unitaria o en empaques específicos para cada paciente.
       .cajon.color-primario.p-4.p-md-4.p-lg-5.mb-5
         p.mb-0 El modelo de distribución mayorista contempla a proveedores que actúan como intermediarios entre los laboratorios farmacéuticos y distintos tipos de establecimientos (droguerías, hospitales, EPS, IPS). Se caracteriza por manejar grandes volúmenes de compra y entrega, lo que requiere infraestructura robusta, sistemas logísticos avanzados, cadena de frío para productos sensibles y alta capacidad de negociación. El aprendiz debe identificar proveedores con experiencia en distribución nacional, cumplimiento fiscal y documentación legal vigente, aspectos que garantizan una operación eficiente y legalmente segura.
 
@@ -432,7 +431,7 @@
             .col-6
               figure
                 img.im3(src='@/assets/curso/tema1/23.svg', alt='Texto que describa la imagen')          
-          p.text-center.text-white.tb Asegurar que en el caso de medicamentos controlados o especiales, se cumplan los protocolos definidos por la institución y la legislación nacional (como la Resolución 1478 de 2006).
+          p.text-center.text-white.tb Asegurar que, en el caso de medicamentos controlados o especiales, se cumplan los protocolos definidos por la institución y la legislación nacional (como la Resolución 1478 de 2006).
 
       .titulo.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
         img(src='@/assets/curso/tema1/sub.svg', alt='Imagen decorativa')
